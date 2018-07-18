@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header satrt*/
+header {
+	
+	background-color: yellow;
+	padding: 40px 0;
+}
+.wrapper{
+	overflow: hidden;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	width: 30%;
+
+}
+.logo .logo_img{
+	width: 15%;
+	float: left;
+	margin-right: 10px;
+}
+.logo_img img{
+	width: 100%;
+}
+
+.logo .logo_content{
+	font-size: 25px;
+    margin-top: 10px;
+	width: 70%;
+	float: left;
+}
+
+.nav {
+	float: right;
+	margin-top: 10px;
+	width: 70%;
+
+
+}
+.nav ul {
+ 	list-style: none;
+ 	float: right;
+
+}
+.nav ul li {
+	float: left;
+
+
+}
+.nav ul li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	font-size: 25px;
+	margin-left: 60px;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-color: yellow;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+.banner_left{
+	width: 40%;
+	float: left;
+	margin-top: 50px;
+}
+
+.banner_left h1{
+	font-size: 32px;
+}
+.banner_left h3{
+	margin: 20px 0;
+	font-size: 20px;
+	font-weight: normal;
+	padding-right: 29px;
+}
+.banner_left p{
+	margin-bottom: 25px;
+}
+
+.banner_left .icon{
+	overflow: hidden;
+}
+.banner_left .icon ul {
+ 	list-style: none;
+
+}
+.banner_left .icon ul li {
+	float: left;
+	margin-right: 30px;
+
+
+}
+.banner_right{
+	width: 30%;
+	float: right;
+	margin-right: 5%;
+}
+.banner_right img{
+	width: 100%;
+}
+/*banner end*/
+/*service start*/
+.service{
+padding: 105px 0;
+}
+.service_content{
+	width: 59%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.service_content h1{
+	
+	margin-bottom: 10px;
+
+}
+.service1{
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+.single_service{
+	overflow: hidden;
+	width: 29%;
+	float: left;
+	padding-right: 6%;
+}
+.single_service:last-child {
+	padding-right: 0px;
+}
+.single_service .icon{
+	width: 20%;
+	float: left;
+}
+.single_service .icon_content{
+	width: 69%;
+	float: right;
+}
+.single_service .icon_content h1{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.single_service .icon_content h1{
+    font-size: 16px;
+}
+.single_vervice:last-child {
+	padding-right: 0;
+}
+/*service end*/
+
+/*contact start*/
+.contact{
+	background-color: black;
+	padding: 80px 0px 100px;
+}
+.contact_submit{
+	width: 73%;
+	margin: 0 auto;
+	text-align: center;
+}
+.contact_submit h1{
+	color: yellow;
+	margin-bottom: 15px;
+	font-size: 32px;
+}
+.contact_submit p{
+	color: #898989;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+form{
+	overflow: hidden;
+	margin-bottom: 60px;
+	margin-top: 40px;
+}
+.contact_submit input{
+	padding: 10px 0px;
+    margin-right: 19px;
+    width: 79%;
+    float: left;
+    border-radius: 5px;
+}
+.contact_submit button{
+	width: 16%;
+    background-color: yellow;
+    color: black;
+    padding: 12px 0px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+}
+.contact_submit .content_icon{
+	overflow: hidden;
+	width: 45%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+.content_icon ul {
+    list-style: none;
+    
+
+}
+.content_icon ul li {
+	float: left;
+    padding-right: 12%;
+    
+
+}
+.content_icon ul li:last-child {
+	padding-right: 0px;
+
+}
+.content_icon ul li {
+    text-decoration: none;
+	color: black;
+	display: block;
+
+}
+
+/*contact end*/
+
+/*footer start*/
+footer{
+	background-color: black;
+}
+.contact_information{
+	overflow: hidden;
+	color: #898989;
+	padding-bottom: 70px;
+	font-size: 16px;
+}
+.contact_information .information1{
+	width: 20%;
+	float: left;
+	padding-right: 12%;
+}
+.contact_information .information2{
+	width: 9%;
+	float: left;
+	padding-right: 10%;
+}
+.contact_information .information3{
+	width: 9%;
+	float: left;
+	padding-right: 7%;
+}
+.contact_information .information4{
+	width: 9%;
+	float: left;
+	padding-right: 7%;
+}
+.contact_information .information5{
+	width: 8%;
+	float: left;
+}
+/*footer end*/
